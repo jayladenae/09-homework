@@ -52,7 +52,7 @@ const questions = [
     {
         type: 'input',
         message: 'Please, step-by-step, explain how to testing instructions.',
-        name: 'test',
+        name: 'tests',
       },
       {
         type: 'input',
@@ -60,8 +60,16 @@ const questions = [
         name: 'questions',
       }
   ])
-  .then((response) =>
-   console.log(response)
+  .then((response) =>{
+   console.log(response.title)
+   console.log(response.description)
+   console.log(response.installation)
+   console.log(response.usage)
+   console.log(response.license)
+   console.log(response.contributers)
+   console.log(response.tests)
+   console.log(response.questions)
+  }
   )
 ];
 // TODO: Create a function to write README file
