@@ -58,7 +58,7 @@ const questions = [
     },
     {
       type: 'input',
-      message: 'Please, enter a form of contact, so anyone can reach you with any questions for your project.',
+      message: 'Please, enter your email address where you can be contacted for any questions about your project.',
       name: 'questions',
     }
   ])
