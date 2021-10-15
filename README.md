@@ -1,4 +1,4 @@
-# Command Line README.md Generator 
+# Command-line README.md Generator 
 
 ## Description
 This is a command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package.
@@ -23,5 +23,5 @@ For this README.md Generator to work:
 ### License 
 ![MIT License](https://img.shields.io/apm/l/PACK?style=plastic)
 
-#### LNK TO VIDEO 
-
+#### Video
+[Link to video of me using the application](https://drive.google.com/file/d/1ev0-G9opz3N_tUebgEr5ppOTxPc8PgNR/view)
