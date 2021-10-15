@@ -78,8 +78,6 @@ function generateMarkdown(data) {
 
   ##  ${data.description}
 
-  ![${data.license}](${badge})
-
   ### Table of contents
   - [Installation](#installation)
   - [Usage](#usage)
@@ -96,6 +94,9 @@ function generateMarkdown(data) {
   ### License
   ${data.license}
   ${section}
+
+  ### Badges 
+  ![${data.license}](${badge})
 
   ### Contributors
   ${data.contributors}
